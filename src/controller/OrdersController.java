@@ -39,9 +39,7 @@ public class OrdersController {
 		ModelAndView modelAndView = new ModelAndView();
 		modelAndView.addAllObjects(model);
 
-
 		modelAndView.addObject("loginUser", loginUser);
-
 
 		return modelAndView;
 
